@@ -39,7 +39,7 @@ Create configuration files in folders example:
 ```
 
 myhttpservice.conf example config:
-```json
+```conf
 upstream myhttpservice {
     server srv1.example.com;
     server srv2.example.com;
@@ -56,7 +56,7 @@ server {
 ```
 
 myotherservice.conf example config:
-```json
+```conf
 upstream myotherservice {
     server srv1.example.com;
     server srv2.example.com;
